@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		445E45B429061E6E003C40AE /* BeginingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445E45B329061E6E003C40AE /* BeginingPage.swift */; };
+		445E45B629062266003C40AE /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445E45B529062266003C40AE /* Placeholder.swift */; };
+		44CDD45729028E9700DE9B0C /* StrawsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CDD45629028E9700DE9B0C /* StrawsApp.swift */; };
+		44CDD45929028E9700DE9B0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CDD45829028E9700DE9B0C /* ContentView.swift */; };
+		44CDD45B29028E9800DE9B0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44CDD45A29028E9800DE9B0C /* Assets.xcassets */; };
+		44CDD45E29028E9800DE9B0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44CDD45D29028E9800DE9B0C /* Preview Assets.xcassets */; };
+		44CDD46829028E9800DE9B0C /* StrawsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CDD46729028E9800DE9B0C /* StrawsTests.swift */; };
+		44CDD47229028E9900DE9B0C /* StrawsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CDD47129028E9900DE9B0C /* StrawsUITests.swift */; };
+		44CDD47429028E9900DE9B0C /* StrawsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CDD47329028E9900DE9B0C /* StrawsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44CDD46429028E9800DE9B0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44CDD44B29028E9700DE9B0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44CDD45229028E9700DE9B0C;
+			remoteInfo = Straws;
+		};
+		44CDD46E29028E9900DE9B0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44CDD44B29028E9700DE9B0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44CDD45229028E9700DE9B0C;
+			remoteInfo = Straws;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		445E45B329061E6E003C40AE /* BeginingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginingPage.swift; sourceTree = "<group>"; };
+		445E45B529062266003C40AE /* Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placeholder.swift; sourceTree = "<group>"; };
+		44CDD45329028E9700DE9B0C /* Straws.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Straws.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44CDD45629028E9700DE9B0C /* StrawsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawsApp.swift; sourceTree = "<group>"; };
+		44CDD45829028E9700DE9B0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		44CDD45A29028E9800DE9B0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44CDD45D29028E9800DE9B0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		44CDD46329028E9800DE9B0C /* StrawsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrawsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44CDD46729028E9800DE9B0C /* StrawsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawsTests.swift; sourceTree = "<group>"; };
+		44CDD46D29028E9900DE9B0C /* StrawsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrawsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44CDD47129028E9900DE9B0C /* StrawsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawsUITests.swift; sourceTree = "<group>"; };
+		44CDD47329028E9900DE9B0C /* StrawsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44CDD45029028E9700DE9B0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CDD46029028E9800DE9B0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CDD46A29028E9900DE9B0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44CDD44A29028E9700DE9B0C = {
+			isa = PBXGroup;
+			children = (
+				44CDD45529028E9700DE9B0C /* Straws */,
+				44CDD46629028E9800DE9B0C /* StrawsTests */,
+				44CDD47029028E9900DE9B0C /* StrawsUITests */,
+				44CDD45429028E9700DE9B0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44CDD45429028E9700DE9B0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44CDD45329028E9700DE9B0C /* Straws.app */,
+				44CDD46329028E9800DE9B0C /* StrawsTests.xctest */,
+				44CDD46D29028E9900DE9B0C /* StrawsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44CDD45529028E9700DE9B0C /* Straws */ = {
+			isa = PBXGroup;
+			children = (
+				44CDD45629028E9700DE9B0C /* StrawsApp.swift */,
+				44CDD45829028E9700DE9B0C /* ContentView.swift */,
+				44CDD45A29028E9800DE9B0C /* Assets.xcassets */,
+				44CDD45C29028E9800DE9B0C /* Preview Content */,
+				445E45B329061E6E003C40AE /* BeginingPage.swift */,
+				445E45B529062266003C40AE /* Placeholder.swift */,
+			);
+			path = Straws;
+			sourceTree = "<group>";
+		};
+		44CDD45C29028E9800DE9B0C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				44CDD45D29028E9800DE9B0C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		44CDD46629028E9800DE9B0C /* StrawsTests */ = {
+			isa = PBXGroup;
+			children = (
+				44CDD46729028E9800DE9B0C /* StrawsTests.swift */,
+			);
+			path = StrawsTests;
+			sourceTree = "<group>";
+		};
+		44CDD47029028E9900DE9B0C /* StrawsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44CDD47129028E9900DE9B0C /* StrawsUITests.swift */,
+				44CDD47329028E9900DE9B0C /* StrawsUITestsLaunchTests.swift */,
+			);
+			path = StrawsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44CDD45229028E9700DE9B0C /* Straws */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44CDD47729028E9900DE9B0C /* Build configuration list for PBXNativeTarget "Straws" */;
+			buildPhases = (
+				44CDD44F29028E9700DE9B0C /* Sources */,
+				44CDD45029028E9700DE9B0C /* Frameworks */,
+				44CDD45129028E9700DE9B0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Straws;
+			productName = Straws;
+			productReference = 44CDD45329028E9700DE9B0C /* Straws.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44CDD46229028E9800DE9B0C /* StrawsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44CDD47A29028E9900DE9B0C /* Build configuration list for PBXNativeTarget "StrawsTests" */;
+			buildPhases = (
+				44CDD45F29028E9800DE9B0C /* Sources */,
+				44CDD46029028E9800DE9B0C /* Frameworks */,
+				44CDD46129028E9800DE9B0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44CDD46529028E9800DE9B0C /* PBXTargetDependency */,
+			);
+			name = StrawsTests;
+			productName = StrawsTests;
+			productReference = 44CDD46329028E9800DE9B0C /* StrawsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44CDD46C29028E9900DE9B0C /* StrawsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44CDD47D29028E9900DE9B0C /* Build configuration list for PBXNativeTarget "StrawsUITests" */;
+			buildPhases = (
+				44CDD46929028E9900DE9B0C /* Sources */,
+				44CDD46A29028E9900DE9B0C /* Frameworks */,
+				44CDD46B29028E9900DE9B0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44CDD46F29028E9900DE9B0C /* PBXTargetDependency */,
+			);
+			name = StrawsUITests;
+			productName = StrawsUITests;
+			productReference = 44CDD46D29028E9900DE9B0C /* StrawsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44CDD44B29028E9700DE9B0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					44CDD45229028E9700DE9B0C = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					44CDD46229028E9800DE9B0C = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 44CDD45229028E9700DE9B0C;
+					};
+					44CDD46C29028E9900DE9B0C = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 44CDD45229028E9700DE9B0C;
+					};
+				};
+			};
+			buildConfigurationList = 44CDD44E29028E9700DE9B0C /* Build configuration list for PBXProject "Straws" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44CDD44A29028E9700DE9B0C;
+			productRefGroup = 44CDD45429028E9700DE9B0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44CDD45229028E9700DE9B0C /* Straws */,
+				44CDD46229028E9800DE9B0C /* StrawsTests */,
+				44CDD46C29028E9900DE9B0C /* StrawsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44CDD45129028E9700DE9B0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CDD45E29028E9800DE9B0C /* Preview Assets.xcassets in Resources */,
+				44CDD45B29028E9800DE9B0C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CDD46129028E9800DE9B0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CDD46B29028E9900DE9B0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44CDD44F29028E9700DE9B0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CDD45929028E9700DE9B0C /* ContentView.swift in Sources */,
+				445E45B429061E6E003C40AE /* BeginingPage.swift in Sources */,
+				44CDD45729028E9700DE9B0C /* StrawsApp.swift in Sources */,
+				445E45B629062266003C40AE /* Placeholder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CDD45F29028E9800DE9B0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CDD46829028E9800DE9B0C /* StrawsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CDD46929028E9900DE9B0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CDD47429028E9900DE9B0C /* StrawsUITestsLaunchTests.swift in Sources */,
+				44CDD47229028E9900DE9B0C /* StrawsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44CDD46529028E9800DE9B0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44CDD45229028E9700DE9B0C /* Straws */;
+			targetProxy = 44CDD46429028E9800DE9B0C /* PBXContainerItemProxy */;
+		};
+		44CDD46F29028E9900DE9B0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44CDD45229028E9700DE9B0C /* Straws */;
+			targetProxy = 44CDD46E29028E9900DE9B0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		44CDD47529028E9900DE9B0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44CDD47629028E9900DE9B0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44CDD47829028E9900DE9B0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Straws/Preview Content\"";
+				DEVELOPMENT_TEAM = 6GH2ZWT255;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bingbing.Straws;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44CDD47929028E9900DE9B0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Straws/Preview Content\"";
+				DEVELOPMENT_TEAM = 6GH2ZWT255;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bingbing.Straws;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44CDD47B29028E9900DE9B0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6GH2ZWT255;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bingbing.StrawsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Straws.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Straws";
+			};
+			name = Debug;
+		};
+		44CDD47C29028E9900DE9B0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6GH2ZWT255;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bingbing.StrawsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Straws.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Straws";
+			};
+			name = Release;
+		};
+		44CDD47E29028E9900DE9B0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6GH2ZWT255;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bingbing.StrawsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Straws;
+			};
+			name = Debug;
+		};
+		44CDD47F29028E9900DE9B0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6GH2ZWT255;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bingbing.StrawsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Straws;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44CDD44E29028E9700DE9B0C /* Build configuration list for PBXProject "Straws" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CDD47529028E9900DE9B0C /* Debug */,
+				44CDD47629028E9900DE9B0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44CDD47729028E9900DE9B0C /* Build configuration list for PBXNativeTarget "Straws" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CDD47829028E9900DE9B0C /* Debug */,
+				44CDD47929028E9900DE9B0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44CDD47A29028E9900DE9B0C /* Build configuration list for PBXNativeTarget "StrawsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CDD47B29028E9900DE9B0C /* Debug */,
+				44CDD47C29028E9900DE9B0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44CDD47D29028E9900DE9B0C /* Build configuration list for PBXNativeTarget "StrawsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CDD47E29028E9900DE9B0C /* Debug */,
+				44CDD47F29028E9900DE9B0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44CDD44B29028E9700DE9B0C /* Project object */;
+}
